@@ -3,6 +3,9 @@
   "version": "1.0.3",
   "description": "all this. tools",
   "main": "index.js",
+  "bin": {
+    "me": "./bin/me-cli.js"
+  },
   "scripts": {
     "test": "test",
     "start": "node index.js"
@@ -27,9 +30,11 @@
     "this.img": "^1.0.0",
     "this.me": "^2.7.6",
     "this.pixel": "^3.4.7",
+    "this.pixelgrid": "this.pixelgrid",
     "this.text": "^1.0.7",
     "this.video": "^1.0.1",
     "this.wallet": "^1.0.3",
-    "v.path": "^2.2.5"
+    "v.path": "^2.2.5",
+    "tetragrammaton": "0.0.0"
   }
 }
