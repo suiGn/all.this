@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PixelGrid Demo</title>
+    <script src="./PixelGrid.js" defer></script>
+</head>
+<body>
+    <pixel-grid width="100" height="100"></pixel-grid>
+
+    <div id="grid-properties"></div>
+    <button id="btn-2d">Mostrar en 2D</button>
+    <button id="btn-3d">Mostrar en 3D</button>
+
+    <pre id="grid-data"></pre>
+
+    <script>
+        function to3DMatrix(data, width, height) {
+            const matrix = [];
+            for (let y = 0; y < height; y++) {
+                const row = [];
+                for (let x = 0; x < width; x++) {
+                    const idx = (y * width + x) * 4;
+                    const pixel = [data[idx], data[idx + 1], data[idx + 2], data[idx + 3]];
+                    row.push(pixel);
+                }
+                matrix.push(row);
+            }
+            return matrix;
+        }
+
+        window.onload = function() {
+            const grid = document.querySelector('pixel-grid');
+            const propertiesDiv = document.getElementById('grid-properties');
+            const gridDataPre = document.getElementById('grid-data');
+            const btn2D = document.getElementById('btn-2d');
+            const btn3D = document.getElementById('btn-3d');
+
+            // Listando las propiedades de grid
+            propertiesDiv.innerHTML = `
+                width: ${grid.width} <br>
+                height: ${grid.height} <br>
+                pixelSize: ${grid.pixelSize} <br>
+                canvas: ${grid.canvas} <br>
+                ctx: ${grid.ctx} <br>
+                imageData: ${grid.imageData}
+            `;
+
+            // Eventos de botones para mostrar los datos en 2D y 3D
+            btn2D.addEventListener('click', () => {
+                gridDataPre.textContent = JSON.stringify(grid.imageData.data);
+            });
+
+            btn3D.addEventListener('click', () => {
+                const matrix = to3DMatrix(grid.imageData.data, grid.width, grid.height);
+                gridDataPre.textContent = JSON.stringify(matrix);
+            });
+
+            grid.setPixel(50, 50, [255, 0, 0, 255]); // Set a red pixel at (50, 50)
+            for (let x = 0; x < grid.width; x++) {
+                for (let y = 0; y < grid.height; y++) {
+                    grid.setPixel(x, y, [Math.random() * 255, Math.random() * 255, Math.random() * 255, 255]);
+                }
+            }
+        }
+    </script>
+</body>
+</html>
