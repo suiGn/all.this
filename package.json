@@ -39,5 +39,6 @@
     "this.video": "^1.0.1",
     "this.wallet": "^1.0.3",
     "v.path": "^2.2.5"
-  }
+  },
+  "repoType": "NPM Package"
 }
