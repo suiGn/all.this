@@ -14,8 +14,6 @@
     "come",
     "together"
   ],
-  "author": "suiGn",
-  "license": "MIT",
   "dependencies": {
     "be.this": "^1.2.0",
     "cleaker": "^2.4.7",
@@ -40,5 +38,13 @@
     "this.wallet": "^1.0.3",
     "v.path": "^2.2.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiGn/all.this.git"
+  },
+  "homepage": "https://www.npmjs.com/package/all.this",
+  "docs": "https://suiGn.github.io/all.this",
+  "author": "suiGn",
+  "license": "MIT",
   "repoType": "NPM Package"
 }
