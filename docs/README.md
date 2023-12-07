@@ -21,7 +21,7 @@ allThis.init('suign');
 
 ### Conceptual Flow:
 - [ ] Initiate and set up a context with [this.me.](https://www.npmjs.com/package/this.me)
-- [ ] Create  [neurons.me](https://www.neurons.me) neural networks.
+- [ ] Create [neurons.me](https://www.neurons.me) neural networks.
 - [ ] Define the data you'd like your neural network to recognize or process with [this.](https://www.neurons.me/this) modules.
 - [ ] Use [this.be](https://www.npmjs.com/package/this.be) to maintain a state or context, - watching over the [PixelGrid](https://www.npmjs.com/package/this.pixel) and any other states you define for example.
 - [ ] Define desired status and handlers, [be.this](https://www.npmjs.com/package/be.this).
