@@ -3,7 +3,7 @@
     "include": ["./src", "./index.js"]
   },
   "opts": {
-    "destination": "./docs",
+    "destination": "./docs/dist",
     "template": "../neurons.me/src/assets/better-docs",
     "readme": "./README.md"
   },

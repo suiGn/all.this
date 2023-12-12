@@ -3,9 +3,6 @@
   "version": "1.0.3",
   "description": "all this. tools",
   "main": "index.js",
-  "bin": {
-    "me": "./bin/me-cli.js"
-  },
   "scripts": {
     "test": "test",
     "start": "node index.js"
