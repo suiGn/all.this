@@ -1,6 +1,6 @@
 {
   "source": {
-    "include": ["./src", "./index.js"]
+    "include": ["./src", "./index.js", "./notes/Binaries.md"]
   },
   "opts": {
     "destination": "./docs/",
@@ -17,6 +17,11 @@
               "./README.md"
           ]
         }
+    },
+    "plugins": ["plugins/markdown"],
+    "markdown": {
+      "parser": "gfm",
+      "hardwrap": true
     },
     "better-docs": {
         "name": "All.This",

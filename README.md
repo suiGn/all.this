@@ -1,7 +1,23 @@
-<img src="https://suign.github.io/neurons.me/neurons_logo.png" alt="SVG Image" width="123" height="123" style="width123px; height:123px;">
+<img src="https://suign.github.io/neurons.me/neurons_logo.png" alt="SVG Image" width="123" height="123">
 
 # Welcome to `all.this`
 A package to unify **`all.this`**.
+
+**all.this** serves as a central framework for managing a suite of **modular packages**, each tailored to specific data structures and functionalities. 
+
+Leveraging cryptographic principles, each module within the all.this family, like:
+
+- [this.text](https://suign.github.io/this.text/),  
+
+- [this.video](https://suign.github.io/this.video/),
+
+- [this.img](https://suign.github.io/this.img/) 
+
+  Is equipped with **unique cryptographic identities**, thanks to their integration with **cleaker**.
+
+## Modular Data Structures:
+Each module, such as this.text, this.video, or this.img, represents a specific data structure or class.
+These classes encapsulate the functionalities and data specific to their domain. For example, this.audio handles audio data and operations, while this.wallet manage cryptocurrency transactions and balances.
 
 
 ## Import and use it in your project:
@@ -10,10 +26,8 @@ A package to unify **`all.this`**.
    npm i all.this
    ```
 
-   ## Example Usage
-
+## Example Usage
 Module can be used like this:
-
 ```javascript
 const allThis = require('all.this');
 allThis.init('suign');
