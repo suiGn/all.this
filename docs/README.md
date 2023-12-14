@@ -3,7 +3,17 @@
 # Welcome to `all.this`
 A package to unify **`all.this`**.
 
-The `all.this` collection of packages, along with the proposed `cleaker` and `this.me` functionality, is an approach to create a modular system where each module (like `this.text`, `this.video`, `this.img`, etc.) (all.this family) represents a distinct data structure or class. These modules, when combined with `cleaker`, generate unique **public and private key pairs**, essentially giving each instance its cryptographic identity.
+**all.this** serves as a central framework for managing a suite of **modular packages**, each tailored to specific data structures and functionalities. 
+
+Leveraging cryptographic principles, each module within the all.this family, like:
+
+- [this.text](https://suign.github.io/this.text/),  
+
+- [this.video](https://suign.github.io/this.video/),
+
+- [this.img](https://suign.github.io/this.img/) 
+
+  Is equipped with **unique cryptographic identities**, thanks to their integration with **cleaker**.
 
 ## Modular Data Structures:
 Each module, such as this.text, this.video, or this.img, represents a specific data structure or class.

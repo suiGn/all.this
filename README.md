@@ -5,19 +5,13 @@ A package to unify **`all.this`**.
 
 **all.this** serves as a central framework for managing a suite of **modular packages**, each tailored to specific data structures and functionalities. 
 
-Leveraging cryptographic principles, each module within the all.this family, like:
-
-- [this.text](https://suign.github.io/this.text/),  
-
-- [this.video](https://suign.github.io/this.video/),
-
-- [this.img](https://suign.github.io/this.img/) 
-
-  Is equipped with **unique cryptographic identities**, thanks to their integration with **cleaker**.
+Leveraging cryptographic principles, each module within the all.this family, like [this.text](https://suign.github.io/this.text/), [this.video](https://suign.github.io/this.video/), [this.img](https://suign.github.io/this.img/), is equipped with **unique cryptographic identities**, thanks to their integration with **cleaker**.
 
 ## Modular Data Structures:
-Each module, such as this.text, this.video, or this.img, represents a specific data structure or class.
+Each module, this.text, this.video, or this.img, represents a specific data structure or class.
 These classes encapsulate the functionalities and data specific to their domain. For example, this.audio handles audio data and operations, while this.wallet manage cryptocurrency transactions and balances.
+
+- The integration with `cleaker` ensures each module instance has a unique cryptographic identity, enhancing security and data integrity.
 
 
 ## Import and use it in your project:
