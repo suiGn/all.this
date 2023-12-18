@@ -5,7 +5,7 @@ A package to unify [**`all.this`**.](https://www.neurons.me/this)
 
 **all.this** serves as a central framework for managing a suite of **modular packages**, each tailored to specific data structures and functionalities. 
 
-Leveraging cryptographic principles, each module within the all.this family, like [this.text](https://suign.github.io/this.text/), [this.video](https://suign.github.io/this.video/), [this.img](https://suign.github.io/this.img/), is equipped with **unique cryptographic identities**, thanks to their integration with **cleaker**.
+Leveraging cryptographic principles, each module within the all.this family, like [this.text](https://suign.github.io/this.text/), [this.video](https://suign.github.io/this.video/), [this.img](https://suign.github.io/this.img/), is equipped with **unique cryptographic identities**, thanks to their integration with [**cleaker**.](https://suign.github.io/cleaker/)
 
 ## Modular Data Structures:
 Each module (like: [this.text](https://www.npmjs.com/package/this.text), [this.video](https://www.npmjs.com/package/this.video), or [this.img](https://www.npmjs.com/package/this.img)), represents a specific **data structure** or **class**.
