@@ -1,11 +1,17 @@
 <img src="https://suign.github.io/neurons.me/neurons_logo.png" alt="SVG Image" width="123" height="123">
 
-# Welcome to `all.this`
-A package to unify [**`all.this`**.](https://www.neurons.me/this)
+## **What is All.This**?
 
-**all.this** serves as a central framework for managing a suite of **modular packages**, each tailored to specific data structures and functionalities. 
+The all.this package is a comprehensive framework designed to **standardize and streamline web elements and data structures**, making them ready for advanced processing and analysis in machine learning contexts. By creating classes that represent digital objects and web elements, **ALL.THIS** ensures that the data fed into machine learning systems is uniform, precise, and optimized for advanced processing. 
 
-Leveraging cryptographic principles, each module within the all.this family, like [this.text](https://suign.github.io/this.text/), [this.video](https://suign.github.io/this.video/), [this.img](https://suign.github.io/this.img/), is equipped with **unique cryptographic identities**, thanks to their integration with [**cleaker**.](https://suign.github.io/cleaker/)
+### Integration with i.mlearning and neurons.me
+
+- **Data Structuring for ML**: all.this serves as the foundational layer for **data structuring,** which is further enhanced by the i.mlearning module for preparing data specifically for machine learning applications.
+- **Synergy with neurons.me**: all.this provides the structured data that neurons.me utilizes to build and train neural network models, creating a cohesive and powerful toolkit for developers to deploy advanced machine learning solutions.
+
+This integration ensures that data from all.this is optimally prepared and utilized in machine learning workflows, bridging the gap between data structuring and neural network processing.
+
+For further details on how all.this integrates with i.mlearning and neurons.me, please refer to [neurons.me/all-this](https://neurons.me/all-this), [mlearning.studio](https://mlearning.studio/), and [neurons.me](https://neurons.me/).
 
 ## Modular Data Structures:
 Each module (like: [this.text](https://www.npmjs.com/package/this.text), [this.video](https://www.npmjs.com/package/this.video), or [this.img](https://www.npmjs.com/package/this.img)), represents a specific **data structure** or **class**.
@@ -25,12 +31,31 @@ Module can be used like this:
 const allThis = require('all.this');
 ```
 
-- [ ] Initiate and set up a context with [this.me.](https://suign.github.io/this.me)
-- [ ] Keep [i.mlearning](https://suign.github.io/i.mlearning).
+# Docs
 
-> suiGn
+- [this.me](https://suign.github.io/this.me)
+- [this.pixelgrid](https://suign.github.io/PixelGrid/)
+- [this.audio](https://suign.github.io/this.audio)
+- [this.text](https://suign.github.io/this.text)
+- [this.wallet](https://suign.github.io/this.wallet)
+- [this.img](https://suign.github.io/this.img)
+- [this.pixel](https://suign.github.io/Pixels)
+- [be.this](https://suign.github.io/be.this)
+- [this.DOM](https://suign.github.io/this.DOM)
+- [this.env](https://suign.github.io/this.env/)
+- [this.GUI](https://suign.github.io/this.GUI)
+- [this.be](https://suign.github.io/this.be)
+- [this.video](https://suign.github.io/this.video)
+- [this.atom](https://suign.github.io/this.atom)
+- [this.dictionaries](https://suign.github.io/this.dictionaries/)
+
+
+
+more to come: this.namespace
 
 Enjoy integrating and building upon `all.this`!
+
+
 
 
 
