@@ -1,9 +1,7 @@
-<img src="https://suign.github.io/assets/imgs/all.this.png" alt="All.This Art" width="377" height="377">
-
-
+<img src="https://suign.github.io/assets/imgs/allthis.png" alt="All.This Art" width="377" height="377">
 
 ## **What is All.This**?
-The all.this package is a comprehensive framework designed to **standardize and streamline web elements and data structures**, making them ready for advanced processing and analysis in machine learning contexts. By creating classes that represent digital objects and web elements, **ALL.THIS** ensures that the data fed into machine learning systems is uniform, precise, and optimized for advanced processing. 
+The all.this package is a comprehensive framework designed to **standardize and streamline web elements and data structures**, making them ready for advanced processing and analysis in machine learning contexts. By creating classes that represent digital objects and web elements, **ALL.THIS** ensures that the data fed into machine learning systems is uniform, precise, and optimized for advanced processing. xw
 
 ### Integration with i.mlearning and neurons.me
 - **Data Structuring for ML**: all.this serves as the foundational layer for **data structuring,** which is further enhanced by the i.mlearning module for preparing data specifically for machine learning applications.
@@ -56,6 +54,14 @@ const allThis = require('all.this');
 - [this.dictionaries](https://suign.github.io/this.dictionaries/)
 
 Enjoy integrating and building upon `all.this`!
+
+
+
+Author: SuiGn
+
+[By neurons.me](https://neurons.me)
+
+<img src="https://suign.github.io/neurons.me/neurons_logo.png" alt="neurons.me logo" width="123" height="123" style="width123px; height:123px;">
 
 
 

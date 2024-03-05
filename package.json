@@ -25,6 +25,7 @@
   },
   "homepage": "https://www.npmjs.com/package/all.this",
   "docs": "https://suiGn.github.io/all.this",
+  "type": "module",
   "author": "suiGn",
   "license": "MIT",
   "repoType": "NPM Package",
