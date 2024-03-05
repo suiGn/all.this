@@ -1,7 +1,7 @@
 {
   "name": "all.this",
   "version": "1.0.41",
-  "description": "all this. tools",
+  "description": "all this. DataFormatters and its tools (utils).",
   "main": "index.js",
   "scripts": {
     "test": "test",
@@ -14,8 +14,10 @@
   "dependencies": {
     "cleaker": "^2.4.7",
     "neurons.me": "latest",
+    "this.audio": "^1.1.1",
     "this.env": "^0.0.1",
-    "this.me": "^2.7.6"
+    "this.me": "^2.7.6",
+    "pixelgrid.me": "^0.0.91"
   },
   "repository": {
     "type": "git",

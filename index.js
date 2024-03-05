@@ -1,23 +1,51 @@
+/*index.js
+╔═╗╦  ╦  ╔╦╗╦ ╦╦╔═╗
+╠═╣║  ║   ║ ╠═╣║╚═╗
+╩ ╩╩═╝╩═╝o╩ ╩ ╩╩╚═╝
+ⓝⓔⓤⓡⓞⓝⓢ.ⓜⓔ
+🆂🆄🅸🅶🅽                                                                                                            
+--------------------------------
+Build, manage and run your neural networks.
+For more information, visit: https://neurons.me*/
 /**
- * Class representing the All.This module.
+ * @module all.this
+ * @description Aggregates all individual this.* modules into a single package for convenient access, separating utilities and data formatters.
  */
-class AllThis {
-    constructor() {
-        this.userData = {};
-    }
 
-    /**
-     * Initializes the module with a given GitHub username and an optional repository type.
-     * Defaults to username 'suign' and repoType 'NPM Package' if not provided.
-     * Fetches and displays the GitHub user's profile and repositories.
-     * If repoType is provided, it filters repositories based on this type.
-     * @param {string} [username='suign'] - The GitHub username to fetch data for. Default is 'suign'.
-     * @param {string} [repoType='NPM Package'] - The type of repositories to filter, based on a key in package.json. Default is 'NPM Package'.
-     * @returns {Promise<void>} A promise that resolves when the data is fetched.
-     */
-    async init(username = 'suign', repoType = 'NPM Package') {
-        // Initialization code here
-    }
+// Import utility modules
+/**
+ * PixelGrid utility module from pixelgrid.me package.
+ * @const
+ */
+import pixelgrid from 'pixelgrid.me';
 
-    // ... other class methods ...
-}
+// Import data formatter modules
+/**
+ * Audio data formatter module from this.audio package.
+ * @const
+ */
+import audioFormatter from 'this.audio';
+// Import other data formatter modules similarly...
+
+// Organize imports into utils and dataFormatters objects for better modularity and clarity
+const utils = {
+  pixelgrid: pixelgridUtil,
+  // other utilities...
+};
+
+const dataFormatters = {
+  audio: audioFormatter,
+  // other data formatters...
+};
+
+// Aggregates utils and dataFormatters into a single object for export
+const all = {
+  utils,
+  dataFormatters,
+};
+
+// Export the aggregated object
+export default all;
+
+// Log the successful loading of the all.this package
+console.log("all.this loaded;");
