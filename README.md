@@ -1,26 +1,47 @@
-<img src="https://suign.github.io/assets/imgs/allthis.png" alt="All.This Art" width="377" height="377">
+<img src="https://suign.github.io/assets/imgs/monadlisa_allthis-removebg.png" alt="All.This Art" width="377" height="377">)
 
-## **What is All.This**?
-The all.this package is a comprehensive framework designed to **standardize and streamline web elements and data structures**, making them ready for advanced processing and analysis in machine learning contexts. By creating classes that represent digital objects and web elements, **ALL.THIS** ensures that the data fed into machine learning systems is uniform, precise, and optimized for advanced processing. xw
+------
 
-### Integration with i.mlearning and neurons.me
-- **Data Structuring for ML**: all.this serves as the foundational layer for **data structuring,** which is further enhanced by the i.mlearning module for preparing data specifically for machine learning applications.
-- **Synergy with neurons.me**: all.this provides the structured data that neurons.me utilizes to build and train neural network models, creating a cohesive and powerful toolkit for developers to deploy advanced machine learning solutions.
+## **What is All.This?**
 
-This integration ensures that data from all.this is optimally prepared and utilized in machine learning workflows, bridging the gap between data structuring and neural network processing.
+**All.this** stands as the unifying framework within the **neurons.me** ecosystem, designed to integrate a diverse array of modules that function both independently and collectively. **As an entry point, all.this facilitates easy access and interaction with the ecosystem's functionalities**, simplifying developers' engagement with the extensive capabilities available.
 
-For further details on how all.this integrates with i.mlearning and neurons.me, please refer to [neurons.me/all-this](https://neurons.me/all-this), [mlearning.studio](https://mlearning.studio/), and [neurons.me](https://neurons.me/).
+### General Ecosystem Structure:
 
-## Modular Data Structures:
-**[this.me](https://suign.github.io/this.me) - [this.pixelgrid](https://suign.github.io/PixelGrid/) - [this.audio](https://suign.github.io/this.audio) - [this.text](https://suign.github.io/this.text) - [this.wallet](https://suign.github.io/this.wallet) - [this.img](https://suign.github.io/this.img) - [this.pixel](https://suign.github.io/Pixels) - [be.this](https://suign.github.io/be.this) - [this.DOM](https://suign.github.io/this.DOM) - [this.env](https://suign.github.io/this.env/) - [this.GUI](https://suign.github.io/this.GUI) - [this.be](https://suign.github.io/this.be) - [this.video](https://suign.github.io/this.video) - [this.atom](https://suign.github.io/this.atom) - [this.dictionaries](https://suign.github.io/this.dictionaries/)** 
+- **Data Formatters**: These modules, such as `this.wallet` and `this.pixel`, standardize and prepare data for processing and analysis, serving as the foundational layer for data structuring in machine learning contexts.
+- **Utils/Tools**: Modules including `cleaker`, `netget`, and `i.mlearning` offer extended functionalities beyond mere data formatting, providing developers with a versatile toolkit within the all.this framework.
+- **Controllers**: Acting as The State Guardians or Orchestrators of State Adjustments, controllers manage and direct the ecosystem's data and processes, maintaining coherence and consistency across various components.
 
-**Each module** (like: [this.text](https://www.npmjs.com/package/this.text), [this.video](https://www.npmjs.com/package/this.video), or [this.img](https://www.npmjs.com/package/this.img)), represents a specific **data structure** or **class**.
-These classes encapsulate the functionalities and data specific to their domain. For example, [this.audio](https://www.npmjs.com/package/this.audio) handles audio data and operations, while [this.wallet](https://www.npmjs.com/package/this.wallet) manage cryptocurrency transactions and balances.
+### Integration with Neurons.me:
+
+Within the **neurons.me** ecosystem, all.this plays a crucial role by ensuring that the structured and formatted data from its data formatters are optimally leveraged in deep learning processes. This integration enables neurons.me to achieve more accurate and meaningful data interpretations and analyses, enhancing the overall machine learning workflow.
+
+### Empowering Developers:
+
+With all.this, developers gain a streamlined platform that unifies the capabilities of various modules, eliminating the need to manage them separately. This consolidated approach fosters accelerated development and opens up new possibilities for innovation within the machine learning and data analysis landscapes.
+
+### Discover More:
+
+Embark on a journey to harness the full potential of the neurons.me ecosystem with all.this as your gateway. Explore the integration, functionalities, and opportunities it offers by visiting [neurons.me/all-this](https://neurons.me/all-this).
+
+## Data Formatters - Modular Data Structures:
+
+**Dataformatters** in **all.this** transform **general data formats** like audio, images and videos files **into structured outputs**. These structured outputs are then ready to be seamlessly integrated with **neural networks**, facilitating efficient data processing and analysis.
+
+**[this.me](https://suign.github.io/this.me)  - [this.audio](https://suign.github.io/this.audio) - [this.text](https://suign.github.io/this.text) - [this.wallet](https://suign.github.io/this.wallet) - [this.img](https://suign.github.io/this.img) - [this.pixel](https://suign.github.io/Pixels) - [be.this](https://suign.github.io/be.this) - [this.DOM](https://suign.github.io/this.DOM) - [this.env](https://suign.github.io/this.env/) - [this.GUI](https://suign.github.io/this.GUI) - [this.be](https://suign.github.io/this.be) - [this.video](https://suign.github.io/this.video) - [this.atom](https://suign.github.io/this.atom) - [this.dictionaries](https://suign.github.io/this.dictionaries/)**
+
+**All.This Dataformatters** play a crucial role in preparing raw information for neural networks, transforming disparate data into a structured format that machine learning algorithms can efficiently interpret and analyze. This step is vital for ensuring accuracy and enhancing the performance of predictive models and intelligent systems.
+
+## **Utils**
+
+**[all.this](https://neurons.me/all-this)** not only aggregates these modules but also provides utilities to facilitate the integration, management, and enhancement of these data structures. **For example:**
 
 *The integration with [cleaker](https://suign.github.io/cleaker/) ensures each module instance has a **unique cryptographic identity**, enhancing security and data integrity.*
 
-### Neurons.me Ecosystem Glossary: 
-visit: [Neurons.me Glossary](https://suign.github.io/neurons.me/Glossary)
+### Neurons.me Ecosystem Glossary:
+
+visit: [Neurons.me Glossary](https://suign.github.io/neurons.me/Glossary) 
+
 Learn more at https://neurons.me
 
 
@@ -38,7 +59,6 @@ const allThis = require('all.this');
 # Docs
 
 - [this.me](https://suign.github.io/this.me)
-- [this.pixelgrid](https://suign.github.io/PixelGrid/)
 - [this.audio](https://suign.github.io/this.audio)
 - [this.text](https://suign.github.io/this.text)
 - [this.wallet](https://suign.github.io/this.wallet)

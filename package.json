@@ -1,7 +1,7 @@
 {
   "name": "all.this",
-  "version": "1.0.41",
-  "description": "all this. DataFormatters and its tools (utils).",
+  "version": "1.0.42",
+  "description": "Serves as a central framework for managing a suite of modular packages, each tailored to specific data structures and functionalities.",
   "main": "index.js",
   "scripts": {
     "test": "test",
