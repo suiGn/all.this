@@ -2,7 +2,7 @@
 
 ------
 
-## **What is All.This?**
+# **What is All.This?**
 
 **All.this** stands as the unifying framework within the **neurons.me** ecosystem, designed to integrate a diverse array of modules that function both independently and collectively. **As an entry point, all.this facilitates easy access and interaction with the ecosystem's functionalities**, simplifying developers' engagement with the extensive capabilities available.
 

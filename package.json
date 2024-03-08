@@ -12,12 +12,7 @@
     "together"
   ],
   "dependencies": {
-    "cleaker": "^2.4.7",
-    "neurons.me": "latest",
-    "this.audio": "^1.1.1",
-    "this.env": "^0.0.1",
-    "this.me": "^2.7.6",
-    "pixelgrid.me": "^0.0.91"
+  
   },
   "repository": {
     "type": "git",
