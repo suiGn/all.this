@@ -1,6 +1,6 @@
 {
   "name": "all.this",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "description": "Serves as a central framework for managing a suite of modular packages, each tailored to specific data structures and functionalities.",
   "main": "index.js",
   "scripts": {
