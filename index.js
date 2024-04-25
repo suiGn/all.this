@@ -5,35 +5,27 @@
 ⓝⓔⓤⓡⓞⓝⓢ.ⓜⓔ
 🆂🆄🅸🅶🅽                                                                                                            
 --------------------------------
-Aggregates all individual this.* modules into a single package for convenient access, separating utilities and data formatters.
+Aggregates all individual this.* modules into a single package for convenience.
 For more information, visit: https://neurons.me*/
-
-/**
- * @module all.this
- * @description Aggregates all individual this.* modules into a single package for convenient access, separating utilities and data formatters.
- */
-
-// Import utility modules
+import 'dotenv/config';
+//all.this 
+//Data Structures.
 import thisAudio from 'this.audio';
-// Import other data formatter modules similarly...
-
-// Organize imports into utils and dataFormatters objects for better modularity and clarity
-//const utils = {
-  //PixelGrid
-  // other utilities...
-//};
-
-const dataFormatters = {
-  thisAudio
-  // other data formatters...
-};
-
-// Aggregates utils and dataFormatters into a single object for export
-const all = {
-  //utils,
-  dataFormatters
-};
-
-// Export the aggregated object
-export default all;
-console.log("all.this loaded;");
+// make audio  ls dir and find audio files in current directory
+import fs from 'fs';
+import path from 'path';
+//import thisDOM from 'this.dom';
+import Audio from 'this.audio';
+import thisImg from 'this.img'; 
+import thisGUI from 'this.gui';
+import thisWallet from 'this.wallet';
+import thisEnv from 'this.env';
+// ------Utilities------ *//
+import NetGet from 'netget';
+import vpath from 'v.path';
+import cleaker from "cleaker";
+import imLearning from 'i.mlearning';
+// -------ME----- *//
+import Me from 'this.me';
+let pathToMe = './.me'; 
+let Lisa = new Me();

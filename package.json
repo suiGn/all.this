@@ -12,7 +12,18 @@
     "together"
   ],
   "dependencies": {
-  
+    "cleaker": "^2.6.3",
+    "dotenv": "^16.4.5",
+    "i.mlearning": "^2.3.42",
+    "netget": "^2.3.6",
+    "this.audio": "^1.1.23",
+    "this.dom": "^1.0.93",
+    "this.env": "^0.0.44",
+    "this.gui": "^0.0.55",
+    "this.img": "^1.0.26",
+    "this.me": "^2.9.0",
+    "this.wallet": "^1.0.54",
+    "v.path": "^2.3.41"
   },
   "repository": {
     "type": "git",
