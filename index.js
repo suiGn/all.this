@@ -20,11 +20,6 @@ import thisImg from 'this.img';
 import thisGUI from 'this.gui';
 import thisWallet from 'this.wallet';
 import thisEnv from 'this.env';
-// ------Utilities------ *//
-import NetGet from 'netget';
-import vpath from 'v.path';
-import cleaker from "cleaker";
-import imLearning from 'i.mlearning';
 // -------ME----- *//
 import Me from 'this.me';
 let pathToMe = './.me'; 

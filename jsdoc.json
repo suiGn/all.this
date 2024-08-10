@@ -1,11 +1,10 @@
 {
   "source": {
-    "include": ["./src", "./index.js", "./notes/Binaries.md", "./Glossary.md", "./README.md"]
+    "include": ["./src", "./index.js", "./README.md"]
   },
   "opts": {
     "destination": "./docs/",
-    "template": "../../../../../Sandbox/dev_tools/assets/better-docs",
-    "readme": "./README.md"
+    "template": "../suign.github.io/dev_tools/Sandbox/better-docs/",    "readme": "./README.md"
   },
   "templates": {
     "cleverLinks": false,
