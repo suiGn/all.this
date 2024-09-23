@@ -10,17 +10,17 @@ For more information, visit: https://neurons.me*/
 import 'dotenv/config';
 //all.this 
 //Data Structures.
-import thisAudio from 'this.audio';
-// make audio  ls dir and find audio files in current directory
-import fs from 'fs';
-import path from 'path';
-//import thisDOM from 'this.dom';
-import Audio from 'this.audio';
-import thisImg from 'this.img'; 
-import thisGUI from 'this.gui';
-import thisWallet from 'this.wallet';
-import thisEnv from 'this.env';
-// -------ME----- *//
-import Me from 'this.me';
-let pathToMe = './.me'; 
-let Lisa = new Me();
+export * as Be from 'be.this';
+export * as audio from 'this.audio';
+export * as thisBe from 'this.be';
+export * as Dictionaries from 'this.dictionaries';
+export * as DOM from 'this.dom';
+export * as Env from 'this.env';
+export * as GUI from 'this.gui';
+export * as IMG from 'this.img';
+export * as Me from 'this.me';
+export * as Pixel from 'this.pixel';
+export * as Text from 'this.text';
+export * as URL from 'this.url';
+export * as Video from 'this.video';
+export * as Wallet from 'this.wallet';

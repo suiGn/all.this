@@ -4,18 +4,24 @@
   "description": "Data Structures and Functionalities.",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "start": "node index.js"
+    "test": "npm test",
+    "start": "node index.js",
+    "bootstrap": "git submodule update --init --recursive && npm install",
+    "update-submodules": "git submodule update --remote",
+    "build": "npm run build --workspaces",
+    "publish": "npm publish --workspaces"
   },
   "keywords": [
     "come",
     "together"
   ],
   "workspaces": [
-    "codespaces/*"
+    "workspaces/*"
   ],
   "dependencies": {
+    "be.this": "^1.2.33",
     "this.audio": "^1.1.23",
+    "this.be": "^2.2.12",
     "this.dictionaries": "",
     "this.dom": "^1.0.93",
     "this.env": "^0.0.44",
